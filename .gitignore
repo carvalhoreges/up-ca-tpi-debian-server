@@ -1,0 +1,20 @@
+# Claves privadas: nunca al repositorio
+clave_privada*
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*_key
+!*.pub
+
+# Máquinas virtuales y discos (demasiado grandes para GitHub)
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.rar
+
+# Sistema
+.DS_Store
+Thumbs.db
